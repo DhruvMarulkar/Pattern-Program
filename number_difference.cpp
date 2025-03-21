@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-
-void number_difference(int n) {
+int main()
+{
     int num = 1;
     for (int i = 1; i <= n; i++) {
         for (int j = 0; j < i; j++) {
@@ -10,10 +10,6 @@ void number_difference(int n) {
         }
         cout << endl;
     }
+ return0;
 }
 
-int main() {
-    int n = 6;
-    number_difference(n);
-    return 0;
-}
